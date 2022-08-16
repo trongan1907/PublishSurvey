@@ -217,7 +217,7 @@
                             break;
                         }
 
-                        else if (inputCheckOption.checked == true && inputCheckOptionText.value.length > 1) {
+                        else if (inputCheckOption.checked == true && inputCheckOptionText.value.length >= 1) {
                             if (inputCheckOptionText.value.length > 500) {
                                 arrayCheckboxCompel[i].querySelector(".error").innerHTML = "You cann't enter more than 500 characters";
                                 break;
@@ -236,7 +236,7 @@
                                 break;
                             }
                         }
-                        else if (inputCheckOption.checked == false && inputCheckOptionText.value.length > 1) {
+                        else if (inputCheckOption.checked == false && inputCheckOptionText.value.length >= 1) {
                             inputCheckOptionText.value = "";
                         }
 
@@ -289,7 +289,7 @@
                             break;
                         }
 
-                        else if (inputCheckOption.checked == true && inputCheckOptionText.value.length > 1) {
+                        else if (inputCheckOption.checked == true && inputCheckOptionText.value.length >= 1) {
                             if (inputCheckOptionText.value.length > 500) {
                                 arrayCheckboxCompel[i].querySelector(".error").innerHTML = "You cann't enter more than 500 characters";
                                 break;
@@ -299,7 +299,7 @@
                                 b++;
                                 break;
                             }
-                        } else if (inputCheckOption.checked == false && inputCheckOptionText.value.length > 1) {
+                        } else if (inputCheckOption.checked == false && inputCheckOptionText.value.length >= 1) {
                             inputCheckOptionText.value = "";
                         }
                         if (inputCheck[j].checked == true) {
@@ -344,7 +344,7 @@
 
             var inputText = arrayCheckboxNon[i].querySelector(".survey-input-element.option-text.text-box.single-line");
             for (var j = 0; j < inputCheck.length; j++) {
-                if (inputText != null && inputText.value.length > 1) {
+                if (inputText != null && inputText.value.length >= 1) {
                     if (inputText.value.length > 500) {
                         arrayCheckboxNon[i].querySelector(".error").innerHTML = "You cann't enter more than 500 characters";
                         countCheckboxNon--;
@@ -363,7 +363,7 @@
                     if (inputCheckOption.checked == true && inputCheckOptionText.value.trim() == "") {
                         arrayCheckboxNon[i].querySelector(".error").innerHTML = "Please enter your answer";
                     }
-                    else if (inputCheckOption.checked == true && inputCheckOptionText.value.length > 1) {
+                    else if (inputCheckOption.checked == true && inputCheckOptionText.value.length >= 1) {
                         if (inputCheckOptionText.value.length > 500) {
                             arrayCheckboxNon[i].querySelector(".error").innerHTML = "You cann't enter more than 500 characters";
                         } else {
@@ -378,7 +378,7 @@
                         break;
 
                     }
-                    else if (inputCheckOption.checked == false && inputCheckOptionText.value.length > 1) {
+                    else if (inputCheckOption.checked == false && inputCheckOptionText.value.length >= 1) {
                         inputCheckOptionText.value = "";
                     }
                 }
@@ -496,7 +496,7 @@
                             break;
                         }
 
-                        else if (inputCheckOption.checked == true && inputCheckOptionText.value.length > 1) {
+                        else if (inputCheckOption.checked == true && inputCheckOptionText.value.length >= 1) {
                             if (inputCheckOptionText.value.length > 500) {
                                 arrayRadioCompel[i].querySelector(".error").innerHTML = "You cann't enter more than 500 characters";
                                 break;
@@ -515,7 +515,7 @@
                                 break;
                             }
                         }
-                        else if (inputCheckOption.checked == false && inputCheckOptionText.value.length > 1) {
+                        else if (inputCheckOption.checked == false && inputCheckOptionText.value.length >= 1) {
                             inputCheckOptionText.value = "";
                         }
                         if (inputCheck[j].checked == true) {
@@ -581,7 +581,7 @@
                             break;
                         }
 
-                        else if (inputCheckOption.checked == true && inputCheckOptionText.value.length > 1) {
+                        else if (inputCheckOption.checked == true && inputCheckOptionText.value.length >= 1) {
                             if (inputCheckOptionText.value.length > 500) {
                                 arrayRadioCompel[i].querySelector(".error").innerHTML = "You cann't enter more than 500 characters";
                                 break;
@@ -592,7 +592,7 @@
                                 break;
                             }
                         }
-                        else if (inputCheckOption.checked == false && inputCheckOptionText.value.length > 1) {
+                        else if (inputCheckOption.checked == false && inputCheckOptionText.value.length >= 1) {
                             inputCheckOptionText.value = "";
                         }
 
@@ -640,7 +640,7 @@
 
             for (var j = 0; j < inputCheck.length; j++) {
 
-                if (inputText != null && inputText.value.length > 1) {
+                if (inputText != null && inputText.value.length >= 1) {
                     if (inputText.value.length > 500) {
                         arrayRadioNon[i].querySelector(".error").innerHTML = "You cann't enter more than 500 characters";
                         c--;
@@ -659,7 +659,7 @@
                     if (inputCheckOption.checked == true && inputCheckText.value.trim() == "") {
                         arrayRadioNon[i].querySelector(".error").innerHTML = "Please enter your answer";
                     }
-                    else if (inputCheckOption.checked == true && inputCheckText.value.length > 1) {
+                    else if (inputCheckOption.checked == true && inputCheckText.value.length >= 1) {
                         if (inputCheckText.value.length > 500) {
                             arrayRadioNon[i].querySelector(".error").innerHTML = "You cann't enter more than 500 characters";
                         } else {
@@ -673,7 +673,7 @@
                         c++;
                         break;
                     }
-                    else if (inputCheckOption.checked == false && inputCheckText.value.length > 1) {
+                    else if (inputCheckOption.checked == false && inputCheckText.value.length >= 1) {
                         inputCheckText.value = "";
                     }
                 }
