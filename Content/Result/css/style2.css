@@ -1,0 +1,73 @@
+
+main{
+    background-color: #f0ebf8;
+}
+
+/* css title */
+.input-title{
+    transition: box-shadow 280ms cubic-bezier(0.4,0,0.2,1);
+    border: 1px solid #dadce0;
+    border-top: 10px solid #ef8f11;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.img-title{
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.title-name.element{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+}
+.element{
+    margin-top: 15px;
+    background-color: white;
+    border-bottom: 2px solid #b3b3b3;
+    font-family: 'docs-Roboto', Helvetica, Arial, sans-serif;
+}
+
+.title-description.element{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.element:focus{
+    outline: none;
+    border-bottom: 2px solid #ef8f11;
+}
+/* css form */
+/* thêm class element vào title-form-input và section-description_input  */
+.title-form{
+    background-color: white;
+    transition: box-shadow 280ms cubic-bezier(0.4,0,0.2,1);
+    border: 1px solid #dadce0;
+}
+.question-list-title_input element{
+    margin-top: 0px;
+}
+
+.question-list-title_input{
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.question-list{
+    border: 2px solid #b3b3b3;
+    border-radius: 10px;
+}
+
+.option-box{
+    border: 2px solid #b3b3b3;
+}
+.option-section{
+    border: 2px solid #b3b3b3;
+}
+
